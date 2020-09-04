@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
                         String humid=dataSnapshot.child("Humidity").getValue().toString();
                         String temp=dataSnapshot.child("Temp").getValue().toString();
-                        String moisture=dataSnapshot.child("moisture level").getValue().toString();
-                        String lastDate=dataSnapshot.child("last watering").getValue().toString();
+                        String moisture=dataSnapshot.child("moisturelevel").getValue().toString();
+                        String lastDate=dataSnapshot.child("lastWatering").getValue().toString();
                         humidity.setText(humid);
                         temperature.setText(temp);
                         lastWaterDate.setText(lastDate);
